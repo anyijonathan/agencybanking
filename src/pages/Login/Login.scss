@@ -1,0 +1,28 @@
+ .form-login{
+     display: block;
+     padding-top: 5px;
+     padding-bottom: 30px;
+ }
+ 
+.button-login-process{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // gap: 10px;
+    // position: absolute;
+    max-width: 575px;
+    height: 49px;
+    width: 100%;
+    margin: 0 auto;
+    // left: calc(50% - 475px/2 + 0.5px);
+    top: calc(50% - 49px/2 + 150.5px);
+    background: #FFB81C;
+    border-radius: 6px;  
+    color: #222823;
+    font-weight: 600
+}
+.button-login-process:hover{
+    background-color: #5C068C;
+    color: #FFB81C;
+}

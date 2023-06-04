@@ -1,0 +1,38 @@
+.alert-tray-box{
+    // position: relative;
+    max-width: 510px;
+    height: 58px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), #5C068C;
+    opacity: 0.3;
+    border-radius: 5px;
+    border-color: #fff;
+}
+.alert-tray-text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 13px;
+    color: #5C068C;
+    padding-top: 22px;
+    opacity: 1;
+    text-align: left;
+    // padding-left: 30px;
+}
+.icon-arrow-right{
+    position: relative;
+    float: right;
+    padding-right: 10px;
+}
+// .link-account-true{
+//     padding-top: 50px;
+// }
+
+.content-box-text-select-account{
+    max-width: 490px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 155%;
+    color: #7C7C7C;
+    text-align: left;
+  }

@@ -1,0 +1,42 @@
+.twoFA-form-input {
+    max-Width: 580px !important;
+    width: 100% !important;
+}
+
+.button-account-verify-process{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center  !important;
+    margin-top: 30px  !important;
+    max-width: 475px  !important;
+    width: 100%  !important;
+    margin-left: auto  !important;
+    margin-right: auto  !important;
+    height: 49px  !important;
+    background: #FFB81C;
+    border-radius: 6px  !important;  
+    color: #222823  !important;
+    font-weight: 600  !important;
+  }
+  
+  // .button-account-verify-process{
+  //   display: flex;
+  //   flex-direction: row;
+  //   justify-content: center;
+  //   align-items: center;
+  //   gap: 10px;
+  //   position: absolute;
+  //   max-width: 475px;
+  //   height: 49px;
+  //   left: calc(50% - 475px/2 + 0.5px);
+  //   top: calc(50% - 49px/2 + 100.5px);
+  //   background: #FFB81C;
+  //   border-radius: 6px;  
+  //   color: #222823;
+  //   font-weight: 600
+  // }
+  
+  .button-account-verify-process:hover{
+    background-color: #5C068C;
+    color: #FFB81C;
+  }

@@ -1,0 +1,85 @@
+.modal-content{
+    box-shadow: 0px 2px 8px rgba(129, 129, 129, 0.09);
+    border-radius: 10px;
+    height: 400px;
+    max-width: 620px;
+    // left: 81px;
+}
+.modal-header{
+    min-height: 60px;
+    margin: 0 auto;
+    width: 100%;
+}
+#contained-modal-title-vcenter{
+    position: absolute;
+    height: 25px;
+    // left: 242px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #230036;
+}
+.btn-close{
+    border: 1;
+    border-radius: 2rem;
+    box-shadow: 0px 2px 4px rgba(108, 108, 108, 0.1);
+    display: none;
+}
+.email-verification-text{
+    // max-width: 426px;
+    height: 66px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #262833;
+}
+.email-verification-footer-button-tray{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.btn-email-verification-back{
+    margin: 10px;
+    background: #FFFFFF !important;
+    border-radius: 6px;
+    box-shadow: 0px 2px 8px rgba(129, 129, 129, 0.09);
+    border: 1px solid #262833;
+}
+.btn-email-verification-back-text{
+    color: #262833;
+    font-weight: 700;
+}
+.btn-email-verification-back:hover{
+    background-color: #FFB81C !important;
+}
+.btn-email-verification-proceed-text{
+    font-weight: 700;
+}
+.btn-email-verification-proceed:hover{
+    background-color: #FFB81C !important;
+    color: #000000;
+}
+.btn-email-verification-proceed{
+    background: #5C2682 !important;
+    border-radius: 6px;
+    box-shadow: 0px 2px 8px rgba(129, 129, 129, 0.09);
+    border: 1px solid #5C2682;
+}
+.modal-footer{
+    border: none;
+}

@@ -1,0 +1,48 @@
+.card{
+    min-width: 50%;
+    border: none;
+    background-color: inherit;
+    padding: 99px 0px 0px;
+}
+.card-title{
+    max-width: 559px;
+    // height: 220px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 80px;
+    color: #5C068C;
+}
+.card-body{
+    padding: 1rem 5rem;
+}
+.card-text{
+    max-width: 559px;
+    height: 18px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #5C068C;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+a{
+    color: #5C068C; 
+    text-decoration: none;
+}
+a:hover{
+    color: #FFB81C;
+}
+a:visited{
+    color: #FFB81C;
+}
+body{
+    min-height: 100%;
+}
+
+@media (min-width: 768px) {
+    .min-vh-73 {
+    height: 73vh !important;
+    }
+}

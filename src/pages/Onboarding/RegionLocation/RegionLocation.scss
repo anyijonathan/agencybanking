@@ -1,0 +1,20 @@
+.button-start-process-regionLocation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 475px;
+    width: 100%;
+    height: 49px;
+    margin: 20px auto auto;
+    background: #FFB81C;
+    border-radius: 6px;  
+    color: #222823;
+    font-weight: 600
+}
+
+.button-start-process-regionLocation:hover{
+    background-color: #5C068C;
+    color: #FFB81C;
+}

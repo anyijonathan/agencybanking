@@ -1,0 +1,8 @@
+{
+  "SERVER_URL": "https://agencybankingbackend.fcmb-azr-msase.p.azurewebsites.net/api/",
+  "BASE_URL": "https://agencybankingfontend.fcmb-azr-msase.p.azurewebsites.net/",
+  "THEME_COLORS": {
+    "PRIMARY": "#5C2682",
+    "SECONDARY": "#FFB81C"
+  }
+}

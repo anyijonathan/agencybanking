@@ -1,0 +1,36 @@
+.form-account-number{
+    padding-top: 20px;
+    width: 100% !important;
+}
+
+.button-account-verify-process{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  max-width: 475px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 49px;
+  background: #FFB81C;
+  border-radius: 6px;  
+  color: #222823;
+  font-weight: 600
+}
+
+.button-account-verify-process:hover{
+  background-color: #5C068C;
+  color: #FFB81C;
+}
+
+.content-box-text-requirement{
+  max-width: 490px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 155%;
+  color: #7C7C7C;
+  text-align: left;
+  margin: 0 10px;
+}

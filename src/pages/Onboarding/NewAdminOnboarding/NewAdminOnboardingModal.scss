@@ -1,0 +1,41 @@
+
+form.new-onboarding-admin {
+  display: flex;
+  flex-direction: column !important;;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.form-content-wrapper.new-admin-form  {
+  margin: 0px auto !important;
+}
+
+.modal-content.new-admin-form {
+  min-height: 75vh !important;
+  padding: 0px auto !important;
+  left: 0px !important;
+}
+
+.modal-body{
+  width: 100% !important;
+}
+
+.onboard-admin-submit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center !important;
+  max-width: 10vw !important;
+  width: 100%;
+  height: 49px;
+  margin: 20px auto 0px auto !important;
+  border-radius: 6px;  
+  color: #fff !important;
+  font-weight: 600;
+}
+.onboard-admin-submit:hover{
+  background-color: #5C068C;
+  color: #222823;
+}

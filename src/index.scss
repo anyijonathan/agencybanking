@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Gotham-Medium";
+  src: local("Gotham-Medium"), url("./assets/fonts/Gotham-Medium.woff") format("woff");
+  font-weight: medium;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Gotham-Medium", sans-serif;
+  background-color: #E5E5E5;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.swal-button {
+  background-color: #5C2682 !important;
+  color: #FFB81C !important
+}
+
+label {
+  height: 24px;
+  left: 46px;
+  top: 222px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  letter-spacing: -0.011em;
+  color: #2F0248;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.registration-link {
+  height: 13px;
+  left: 142.5px;
+  top: 500.5px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 13px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: linear-gradient(89.92deg, #60088C 0.07%, #A11E90 92.22%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.cursor-pointer:hover {
+  cursor: pointer;
+}
