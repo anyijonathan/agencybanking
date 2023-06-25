@@ -4,7 +4,7 @@ metadata:
   name: service #The name of the Kubernetes Service to be created in the Kubernetes cluster
 spec:
   selector:
-    app: payment_gateway 
+    app: paymentgateway
   type: LoadBalancer #Type of the Kubernetes Service
   ports:
   - protocol: TCP
