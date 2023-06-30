@@ -15,7 +15,6 @@ COPY package-lock.json ./
 COPY package.json ./
 RUN npm install -g npm@latest
 
-# add app
 COPY . ./
 
 # start app
