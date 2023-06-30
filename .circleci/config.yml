@@ -1,8 +1,12 @@
 version: 2.1
+executors:
+  docker-executor:
+    docker:
+      - image: circleci/node:14.17.6
+
 jobs:
   build:
-    docker:
-      - image: circleci/node:16.13.2
+    executor: docker-executor
 
     steps:
       - checkout
@@ -16,21 +20,19 @@ jobs:
           name: Install dependencies
           command: npm install
 
-      - save_cache:
-          paths:
-            - node_modules
-          key: v1-dependencies-{{ checksum "package-lock.json" }}
-
       - run:
           name: Build
           command: npm run build
 
-      - store_artifacts:
-          path: build
+      - run:
+          name: Build Docker image
+          command: |
+            docker build -t your-dockerhub-username/your-image-name:${CIRCLE_SHA1} .
+            docker login -u your-dockerhub-username -p your-dockerhub-password
+            docker push your-dockerhub-username/your-image-name:${CIRCLE_SHA1}
 
 workflows:
   version: 2
-  build_and_test:
+  build_and_push:
     jobs:
       - build
-    
