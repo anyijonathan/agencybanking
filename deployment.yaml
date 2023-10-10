@@ -39,7 +39,7 @@ spec:
     spec:
       containers:
       - name: agencybanking
-        image: mcsvcacrprod.azurecr.io/agencybanking:BuildNumber
+        image: 986798253017.dkr.ecr.us-east-1.amazonaws.com/devops_practice:latest
         ports:
         - containerPort: 80 
         
