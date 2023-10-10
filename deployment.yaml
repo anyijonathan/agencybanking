@@ -1,25 +1,46 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: agencybanking
+  labels: 
+    app: agencybanking
+spec:
+  selector:
+    app: agencybanking
+  type: LoadBalancer
+  ports:
+  - name: http
+    port: 80
+spec:
+  selector:
+    app: agencybanking
+  type: LoadBalancer
+  ports:
+  - name: http
+    port: 80    
+  
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: paymentgateway #The name of the Kubernetes Deployment to be created in the Kubernetes cluster
+  name: agencybanking
   labels:
-    app: paymentgateway
+    version: v1
 spec:
-  replicas: 2 #The number of pods to be created in the Kubernetes cluster for the React.js application container
+  replicas: 1
   selector:
     matchLabels:
-      app: paymentgateway
+      app: agencybanking
   template:
     metadata:
       labels:
-        app: paymentgateway 
+        app: agencybanking
+        version: v1
     spec:
       containers:
-      - name: paymentgateway #The name of the react.js application container
-        image: mcsvcacrprod.azurecr.io/paymentgatewayportal-frontend:14786 #The Docker image for building the React.js application container
+      - name: agencybanking
+        image: mcsvcacrprod.azurecr.io/agencybanking:BuildNumber
         ports:
-        - containerPort: 3000 #The port for the React.js application   container
-
-
-
-
+        - containerPort: 80 
+        
+        
